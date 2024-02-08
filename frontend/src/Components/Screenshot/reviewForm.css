@@ -1,0 +1,179 @@
+/* Your CSS file or styles section in the React component */
+.validation-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+ 
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.form-group .required::after {
+  content: " *";
+  color: red;
+}
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn{
+  background-color:  #2c65b4;
+  border-color: #2c65b4;
+  color: white;
+  transition: all .6s linear;
+  border-radius: 5px;
+  cursor:pointer;
+  font-family: Poppins,sans-serif;
+   font-weight: 500;
+  font-size: 19px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-align: center;
+   vertical-align: middle;
+   z-index: 2;
+   position: relative;
+ }
+ .button-submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.row {
+  display: flex;
+  margin-right: -12px;
+  margin-left: -12px;
+  gap: 4px;
+  width: 100%;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  /* max-width: 50%; */
+}
+
+.custom_select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.container-1 {
+  padding-left: 2px;
+  padding-right: -100px;
+  padding-top: 130px;
+}
+
+.common-box[role=main] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: inherit;
+  padding-left: inherit;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-lg-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.common-module .bg-white {
+  padding: 10px;
+}
+
+.common-module.bg-white {
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  color: #242424;
+}
+
+h3 {
+  display: block;
+  font-size: 21px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+.customizeH1 {
+  color: #2c65b4;
+  font-size: 32px;
+  font-weight: 800;
+  margin-left: 100px;
+margin-top: 40px;
+  margin-bottom:20px;
+}.page-banner {
+    position: relative;
+    border-bottom: none;
+    z-index: 1;
+    min-height: 54px;
+    position: inherit;
+    background-color: rgba(44,101,180,.1);
+    padding-top: 0px;
+    padding-bottom: 40px;
+    display: flex;
+   
+    justify-content: space-between;
+   
+    align-items: center;
+  }

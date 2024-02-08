@@ -1,0 +1,97 @@
+
+
+  
+  /* Your existing styles... */
+  
+  .navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #315634;
+
+  }
+  
+  #logo img {
+    
+    width: 90px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  #main_wrapper {
+    background-color: #315634;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+  
+
+  /* Heading */
+  .Float-Left_heading {
+    background-color: lightgreen;
+    padding: 10px;
+  }
+  
+  /* H1 inside the heading */
+  .Float-Left_heading h1 {
+    margin: 0; /* Remove default margin for h1 */
+  }
+  
+  /* Main Content */
+  .Main_Content {
+    display: flex;
+    background-color: #C6FFE6;
+    height: calc(100vh - 50px); /* Adjust the height as needed */
+    overflow: auto; /* Enable scrolling when the content overflows */
+}
+  
+  /* List Packages */
+  .list_packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #C6FFE6;
+    padding: 10px;
+    overflow: auto; /* Enable scrolling when the content overflows */
+    width: 100%;
+}
+  
+  /* Package List Wrap */
+  .package_list-wrap {
+    flex-basis: calc(16.6666% - 20px); /* Adjust the percentage and spacing as needed */
+    
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+  /* Package Item */
+  .package-item {
+    
+    padding: 0px;
+
+  }
+  
+  /* Package Image */
+  .package-image {
+    width: 100%;
+  }
+  
+  /* Duration */
+  .duration {
+    background-color: lightsalmon;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+
+  
+
+  .Container_img_quote {
+    background-image: url('/images/coverimage.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    height: 400px /* Make sure the container takes the full height */
+    
+    ;
+  }

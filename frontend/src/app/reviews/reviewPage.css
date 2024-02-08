@@ -1,0 +1,121 @@
+.card-container {
+    width: 65%;
+    /* height: 400px; */
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem; /* equivalent to Tailwind's rounded-lg */
+    padding: 1.25rem; /* equivalent to Tailwind's p-5 */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 0.75rem; /* equivalent to Tailwind's space-y-3 */
+    background-color: white; /* equivalent to Tailwind's bg-white */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .date{
+    flex-direction: row;
+    display: flex;
+    
+  
+    font-weight: 600; 
+    letter-spacing: 0.05em;
+   
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: 20px; */
+    font-size: 16px;
+  }
+  .name-country{
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+  
+    font-weight: 400; 
+    letter-spacing: 0.05em;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+ 
+  .title-desc{
+    display: flex;
+    flex-direction: column;
+   
+    /* margin-right: 200px; */
+    
+
+  }
+  .text-container {
+    text-align: center;
+    /* display: flex; */
+   
+  }
+  
+  .name {
+    /* font-weight: 600;  */
+    letter-spacing: 0.05em; 
+  }
+
+  .review{
+    /* margin-left: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color:rgb(143, 177, 143);
+    border-radius: 8px;
+    height: 30px;
+    width: 160px;
+    padding-left: 10px;
+    /* text-align: center; */
+
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+    
+  }
+  
+  .title {
+    color: #080b15; 
+   margin-top: 10px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .description {
+    font-size: 15px; 
+    color: #282c30; 
+    min-height: 60px;
+   
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    
+  }
+  
+  .underline {
+    border: none;
+    border-top: 0.2px solid rgb(190, 189, 189); 
+    margin: 10px 0; 
+  }
+  .nav-button {
+    font-weight: 600;
+    font-size: 1.5rem; 
+    padding: 0.25rem;
+    cursor: pointer;
+    border-radius: 0.375rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-button:hover {
+    color: #93C5FD; 
+  }
+  
